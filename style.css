@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Poppins,Sans-Serif;
+}
+main{
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name{
+  font-family: Bebas Neue,Poppins,Sans-Serif;
+  font-size: 2em;
+  margin-bottom: 4rem;
+  margin-top:1rem;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    width: 38vh;
+    height:50;
+    background-color: aliceblue;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: #0000002a 0px 0px 1px 2px;
+    border: 4px black solid;
+}
+#display{
+    background-color:#e3e3e3;
+    width: 32vh;
+    height: 8vh;
+    margin: 5px;
+    
+    border: 1px #0f0008 solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.digit{
+    background-color:  rgb(197, 197, 197);
+    width: 12vh;
+    height: 7.5vh;
+}
+#Buttons{
+    width: 39.5vh;
+    height: 40vh;
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    
+}
+.buttons{
+    transition: 0.2s;
+    color: #0f0008;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 11px;
+    
+    width: 50px;
+    height: 50px;
+    background-color: #e3e3e3;
+    box-shadow: rgb(80, 80, 80) 0px 0px 1px 1.5px;
+    cursor: pointer;
+    border-radius: 8px;
+  
+}
+.buttons:hover{
+    transition: 0.2s;
+    background-color:#d3d3d3;
+}
+.buttons:active{
+    transition: 0.2s;
+  
+    box-shadow: rgb(80, 80, 80) 0px 0px 0px 0px;
+
+}
+#clear, #equals{
+  background-color: #ff8855;
+}
+#plus, #minus,#divide,#multiply{
+  background-color: #5588ff;
+}
